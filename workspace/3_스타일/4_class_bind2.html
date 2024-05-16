@@ -28,6 +28,7 @@
     <div id="app">
         <input type="checkbox" v-model="isborder">테두리적용여부 <br>
         <button class="staticStyle" :class="[color, isborder ? border : '']">1테스트</button>
+        <button class="staticStyle" :class="color" :class="{border : isborder}">1테스트</button>
         <button :class="border">2테스트</button>
         <button :class="[layout, color, border]">3테스트</button>
     </div>

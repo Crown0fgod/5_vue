@@ -1,15 +1,24 @@
 <template lang="">
-  <CheckboxItem />
+  <!-- <CheckboxItem /> -->
+
+  <h1>App 테스트</h1>
+  <ul>
+    <CheckboxItem />
+    <CheckboxItem />
+    <CheckboxItem />
+    <CheckboxItem />
+  </ul>
 </template>
 <script>
-import CheckboxItem from './components/CheckboxItem.vue';
+// 지역 컴포넌트를 등록시에는 주석 해제!
+// import CheckboxItem from './components/CheckboxItem.vue';
 
-export default {
+  export default {
     name : 'App',
-    components : {CheckboxItem}
-}
+    // 지역 컴포넌트를 등록시에는 주석 해제!
+    // components : {CheckboxItem}
+  }
 </script>
-
 <style lang="">
   
 </style>

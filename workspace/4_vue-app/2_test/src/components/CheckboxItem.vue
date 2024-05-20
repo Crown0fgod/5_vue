@@ -1,5 +1,6 @@
 <template>
     <input type="checkbox" v-model="checked">테스트
+    <br>
 </template>
 <script>
 // 기본 내보내기할 내용을 정의할 수 있다.

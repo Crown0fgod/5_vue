@@ -6,7 +6,7 @@
     export default {
         name : 'CheckboxItem',
         props : {
-            number : [Number, String],
+            number : [umber, String],
             name : String,
             checked : {
                 type : Boolean,
